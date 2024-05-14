@@ -1,0 +1,89 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`calculate > calculates the output 1`] = `
+{
+  "dough": [
+    {
+      "base": true,
+      "id": 1,
+      "name": "Flour",
+      "percentage": 100,
+      "weight": 835.6196391600117,
+    },
+    {
+      "base": true,
+      "id": 2,
+      "name": "Water",
+      "percentage": 67,
+      "weight": 435.76515823720786,
+    },
+    {
+      "base": true,
+      "id": 3,
+      "name": "Salt",
+      "percentage": 2,
+      "weight": 20.112392783200235,
+    },
+  ],
+  "flourWeight": 1005.6196391600117,
+  "flours": [
+    {
+      "id": 1,
+      "name": "White",
+      "percentage": 90,
+      "weight": 905.0576752440106,
+    },
+    {
+      "id": 2,
+      "name": "Wholemeal",
+      "percentage": 10,
+      "weight": 100.56196391600118,
+    },
+  ],
+  "floursWeight": 1005.6196391600118,
+  "percentagesAndWeights": [
+    {
+      "base": true,
+      "id": 1,
+      "name": "Flour",
+      "percentage": 100,
+      "weight": 1005.6196391600117,
+    },
+    {
+      "base": true,
+      "id": 2,
+      "name": "Water",
+      "percentage": 67,
+      "weight": 673.7651582372079,
+    },
+    {
+      "base": true,
+      "id": 3,
+      "name": "Salt",
+      "percentage": 2,
+      "weight": 20.112392783200235,
+    },
+    {
+      "base": true,
+      "id": 4,
+      "name": "Yeast",
+      "percentage": 0.05,
+      "weight": 0.5028098195800059,
+    },
+  ],
+  "preferment": {
+    "flour": 68,
+    "total": 204.50280981958,
+    "water": 136,
+    "yeast": 0.5028098195800059,
+  },
+  "sourdough": {
+    "flour": 81.6,
+    "starter": 40.8,
+    "total": 204,
+    "water": 81.6,
+  },
+  "targetWeight": 1700,
+  "totalPercentagesWeight": 1700,
+}
+`;

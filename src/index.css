@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "DM Mono", monospace;
+  font-size: 12px;
+  @apply font-light;
+}
+
+.section {
+  @apply mb-8;
+}
+
+/* Title */
+
+.t1 {
+  @apply mb-6 text-2xl;
+}
+
+.t2 {
+  @apply font-black border-b-black mb-3;
+}
+
+/* Input */
+
+.input {
+  @apply text-pink-500 font-bold border-b border-b-pink-500 border-dashed;
+}
+
+/* Table */
+
+table {
+  @apply w-full table-fixed;
+}
+
+th {
+  @apply text-left font-normal;
+}
+
+td {
+  @apply text-right;
+}

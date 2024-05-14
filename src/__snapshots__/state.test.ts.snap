@@ -1,0 +1,49 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`initial state 1`] = `
+{
+  "doughballCount": 1,
+  "doughballWeight": 850,
+  "flours": [
+    {
+      "id": 1,
+      "name": "White",
+      "percentage": 100,
+    },
+  ],
+  "name": "Recipe",
+  "percentages": [
+    {
+      "base": true,
+      "id": 1,
+      "name": "Flour",
+      "percentage": 100,
+    },
+    {
+      "base": true,
+      "id": 2,
+      "name": "Water",
+      "percentage": 58,
+    },
+    {
+      "base": true,
+      "id": 3,
+      "name": "Salt",
+      "percentage": 2.5,
+    },
+    {
+      "base": true,
+      "id": 4,
+      "name": "Yeast",
+      "percentage": 2,
+    },
+  ],
+  "preferment": false,
+  "prefermentRatio": "1:1",
+  "prefermentTarget": 10,
+  "prefermentType": "Poolish",
+  "sourdough": false,
+  "sourdoughRatio": "1:1:1",
+  "sourdoughTarget": 10,
+}
+`;
