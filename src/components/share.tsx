@@ -22,7 +22,7 @@ export default function Share(props: ShareProps) {
   }, [copied]);
 
   const data_encoded = btoa(JSON.stringify(props.state));
-  const url = `${window.location.origin}/${data_encoded}`;
+  const url = `${window.location.origin}?${data_encoded}`;
 
   return (
     <>

@@ -21,7 +21,7 @@ export default function Application() {
 
   useEffect(() => {
     try {
-      const data_encoded = window.location.pathname.substring(1);
+      const data_encoded = window.location.search.substring(1);
       const data_decoded_base64 = atob(data_encoded);
       const data_decoded_json = JSON.parse(data_decoded_base64);
       dispatch(actions.load(data_decoded_json));
