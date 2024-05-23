@@ -182,7 +182,7 @@ export default function Application() {
                 %
               </td>
               <td>
-                <Formula highlight value={b.weight} suffix="g" />
+                <Formula value={b.weight} suffix="g" />
               </td>
             </tr>
           ))}
@@ -391,11 +391,7 @@ export default function Application() {
             <tr key={b.id}>
               <th>{b.name}</th>
               <td>
-                <Formula
-                  highlight={!["Flour"].includes(b.name)}
-                  value={b.weight}
-                  suffix="g"
-                />
+                <Formula highlight value={b.weight} suffix="g" />
               </td>
             </tr>
           ))}
