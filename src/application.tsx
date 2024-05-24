@@ -6,6 +6,7 @@ import InputRatio from "./components/ratio";
 import Formula from "./components/formula";
 import Button from "./components/button";
 import Share from "./components/share";
+import Wakelock from "./components/wakelock";
 
 import { LiaTimesCircleSolid } from "react-icons/lia";
 import { useEffect, useState } from "react";
@@ -42,7 +43,10 @@ export default function Application() {
   }
 
   return (
-    <div className="p-8 rs:mx-auto rs:w-[500px] rs:p-10 rs:m-8 rs:rounded-xl rs:border">
+    <div className="p-8 rs:mx-auto rs:w-[500px] rs:p-10 rs:m-8 rs:rounded-xl rs:border relative">
+      <div className="absolute right-4 top-4">
+        <Wakelock />
+      </div>
       <div>
         <InputText
           className={cx("input", "t1")}
